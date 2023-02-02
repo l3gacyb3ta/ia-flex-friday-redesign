@@ -1,0 +1,54 @@
+.session {
+  overflow: hidden;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background: #f8f9fa;
+}
+
+.workshop_list {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background: #f8f9fa;
+  list-style-type: none;
+
+}
+
+.workshop_list.disabled {
+  border: #d32535 solid 1px;
+}
+
+.workshop_list > label {
+  font-weight: bold;
+}
+
+.workshop_list > label > input {
+  width: min-content;
+  float: right;
+}
+
+.btn-danger {
+  background: #d32535;
+  border: #3b0a0f 1px solid;
+  color: #fff !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .event {
+    background: #131618;
+    color: #fff;
+  }
+}
+
+table.grid-custom {
+  width: 75%;
+}
+
+table.grid-custom > tbody > tr {
+  justify-content: space-between;
+}
+
+details > summary {
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
